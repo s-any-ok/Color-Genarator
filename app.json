@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "colors-app",
+    "name": "Colors Generator",
     "slug": "colors-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -10,16 +10,18 @@
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#a04aab"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.colorsapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.colorsapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"

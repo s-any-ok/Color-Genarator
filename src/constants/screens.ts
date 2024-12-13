@@ -1,0 +1,4 @@
+export enum SCREEN {
+  COLORS = "COLORS",
+  GRADIENTS = "GRADIENTS",
+}
